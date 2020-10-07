@@ -1,3 +1,20 @@
-h1{
-    color: blue;
+#wrapper{
+    width:100px;
+    height:100px;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#phone{
+display:flex;
+flex-direction: column:
+}
+#row{
+display:flex;
+flex-direction: row;
+
+}
+#box{
+
 }
