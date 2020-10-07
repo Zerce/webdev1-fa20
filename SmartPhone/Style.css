@@ -1,20 +1,32 @@
-#wrapper{
-    width:100px;
-    height:100px;
+.wrapper{
     margin:0 auto;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-#phone{
-display:flex;
-flex-direction: column:
-}
-#row{
-display:flex;
-flex-direction: row;
-
-}
-#box{
-
-}
+    boreder: 1px solid #000;
+  }
+  .phone{
+  display:flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  width:71.4mm;
+  height: 150.9mm;
+  padding: 10%;
+  }
+  .row{
+   displace:flex;
+   flex-direction:row;
+    border: 2px solid green;
+    margin: 16px;
+    display: flex;
+  
+    
+  }
+  .box{
+    height: 48px;
+    width: 48px;
+    background: blue;
+    margin: 2px;
+    border-radius: 15px;
+    justify-content: space-between
+  }
