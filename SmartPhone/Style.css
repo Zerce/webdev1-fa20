@@ -7,10 +7,13 @@
     background-image: url("image/giphy-1.gif");
     background-size: contain;
     background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
   }
   .phone{
   background-image: url("image/giphy.gif");
   background-size: contain;
+  background-repeat: no-repeat;
   display:flex;
   background-size: cover;
   flex-direction: column;
@@ -152,7 +155,7 @@ justify-content: space-between
 .box5_3{
 height: 48px;
 width: 48px;
-background:#E19879;
+background:#26A0A3;
 margin: 2px;
 border-radius: 15px;
 justify-content: space-between
@@ -200,7 +203,7 @@ justify-content: space-between
 .box1_5{
   height: 48px;
   width: 48px;
-  background: #20F497;
+  background: #502478;
   margin: 2px;
   border-radius: 15px;
   justify-content: space-between
@@ -208,7 +211,7 @@ justify-content: space-between
 .box2_5{
 height: 48px;
 width: 48px;
-background:#FAFF2E;
+background:#DD218D;
 margin: 2px;
 border-radius: 15px;
 justify-content: space-between
@@ -216,7 +219,7 @@ justify-content: space-between
 .box3_5{
 height: 48px;
 width: 48px;
-background:#FF9A00;
+background:#DD218D;
 margin: 2px;
 border-radius: 15px;
 justify-content: space-between
@@ -224,7 +227,7 @@ justify-content: space-between
 .box4_5{
 height: 48px;
 width: 48px;
-background:#F65724;
+background:#E86EBE	;
 margin: 2px;
 border-radius: 15px;
 justify-content: space-between
@@ -232,7 +235,7 @@ justify-content: space-between
 .box5_5{
 height: 48px;
 width: 48px;
-background:#F4C471;
+background:#D65225;
 margin: 2px;
 border-radius: 15px;
 justify-content: space-between
@@ -240,7 +243,7 @@ justify-content: space-between
 .box1_6{
   height: 48px;
   width: 48px;
-  background: #20F497;
+  background: #166674;
   margin: 2px;
   border-radius: 15px;
   justify-content: space-between
@@ -248,7 +251,7 @@ justify-content: space-between
 .box2_6{
 height: 48px;
 width: 48px;
-background:#FAFF2E;
+background:#C30712;
 margin: 2px;
 border-radius: 15px;
 justify-content: space-between
@@ -264,7 +267,7 @@ justify-content: space-between
 .box4_6{
 height: 48px;
 width: 48px;
-background:#F65724;
+background:#F5BE23;
 margin: 2px;
 border-radius: 15px;
 justify-content: space-between
@@ -272,7 +275,7 @@ justify-content: space-between
 .box5_6{
 height: 48px;
 width: 48px;
-background:#F4C471;
+background:#B478A7;
 margin: 2px;
 border-radius: 15px;
 justify-content: space-between
