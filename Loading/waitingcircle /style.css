@@ -1,0 +1,17 @@
+
+@keyframes top-cricle {
+    from {
+      transform: rotate(-25deg);
+    }
+    to {
+      transform: rotate(335deg);
+    }
+  }
+  @keyframes bottom-cricle {
+    from {
+      transform: rotate(-15deg);
+    }
+    to {
+      transform: rotate(345deg);
+    }
+  }
