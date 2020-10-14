@@ -1,17 +1,44 @@
+h1{
+  color: aqua;
+  text-align: center;
+  justify-content: center;
+}
+:root {
+  --s-loader-width: 200px;
+  --s-loader-height: var(--s-loader-width);
+  --s-loader-border-color-trans:#09f8d3;
+  --s-loader-border-color-full:#fe53bb;
+}
 
-@keyframes top-cricle {
-    from {
-      transform: rotate(-25deg);
-    }
-    to {
-      transform: rotate(335deg);
-    }
+
+body {
+  background: var(--s-loader-wrapper-bg-color, rgb(21, 22, 43));
+  height: 130vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  width: var(--s-loader-width);
+  height: var(--s-loader-height);
+  border: 56px solid var(--s-loader-border-color-trans);
+  border-left-color: var(--s-loader-border-color-full);
+  border-radius: 100%;
+  background: transparent;
+  animation-name: rotate-s-loader;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  
+}
+
+@keyframes rotate-s-loader {
+  from {
+    transform: rotate(0);
   }
-  @keyframes bottom-cricle {
-    from {
-      transform: rotate(-15deg);
-    }
-    to {
-      transform: rotate(345deg);
-    }
+  to {
+    transform: rotate(360deg);
   }
+}
