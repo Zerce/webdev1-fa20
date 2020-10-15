@@ -2,6 +2,8 @@ h1{
   color: aqua;
   text-align: center;
   justify-content: center;
+  
+  
 }
 :root {
   --s-loader-width: 200px;
