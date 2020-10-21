@@ -1,0 +1,16 @@
+body{
+    background-color: #B4F8C8;
+    background-size: cover;
+    background-position: center;
+}
+h1{ 
+    text-align: center;
+    color:#FFAEBC ;
+    font-size: clamp(9rem, 20vw, 20rem);
+    
+}
+h2{ 
+    text-align: center;
+    color:#0C2D48;
+    font-size: clamp(10rem, 20vw, 20rem);
+}

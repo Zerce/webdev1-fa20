@@ -1,0 +1,20 @@
+body{
+    background-image: url(image/giphy-3.gif);
+    background-size: cover;
+    background-position: center;
+
+}
+h1{ 
+    text-align: center;
+    color:#FFAEBC ;
+    font-size:xx-large;
+    
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   
+  }
