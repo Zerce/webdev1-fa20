@@ -1,0 +1,18 @@
+body{
+  background-color: bisque;
+  background-attachment: fixed;
+
+}
+h1 {
+  color: purple;
+}
+
+a {
+  display: inline-block;
+  margin: 20px;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+}

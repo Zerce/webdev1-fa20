@@ -1,0 +1,22 @@
+body{
+    background-image: url("image/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+h1{ 
+    text-align: center;
+    color:#fd82b1 ;
+    
+}
+h2{ 
+    text-align: center;
+    color:#5f4fb6 ;
+    
+}
+h3{ 
+    text-align: center;
+    color:#26ccb6 ;
+    
+}
