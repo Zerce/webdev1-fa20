@@ -1,0 +1,27 @@
+body{
+  background-color:powderblue;
+}
+header {
+    background: #000;
+    min-height: 8vmax;
+}
+  
+  h1 {
+    font-size: 20vmin;
+    font-family: Avenir, sans-serif;
+    font-weight: 900;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  h1, h2, p {
+    margin: .5em 0;
+  }
