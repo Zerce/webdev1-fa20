@@ -1,0 +1,14 @@
+body{
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+}
+h1{ 
+    text-align: center;
+    color:navy;
+}
+p{ 
+    text-align: center;
+    color:black ;
+}
+
