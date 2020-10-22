@@ -1,0 +1,26 @@
+body{
+    color: oldlace;
+}
+h1{ color: royalblue;
+    text-align: center;
+
+}
+p{ color: red;
+    text-align: center;
+    font-size: xx-large;
+}
+@media (orientation: landscape) {
+    body{
+        color: blue;
+    }
+}
+@media(orientation: landscape){
+    h1{
+        color:chocolate;
+        }
+}
+@media(orientation: portrait){
+    p{
+        color:rgb(54, 165, 40);
+    }
+}
