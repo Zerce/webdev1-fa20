@@ -1,0 +1,26 @@
+body{
+    color: oldlace;
+}
+h1{ color: royalblue;
+}
+p{
+    color:black
+}
+a:link {
+    text-align: center;
+    color: red;
+  }
+
+  a:visited {
+    text-align: center;
+    color: green;
+  }
+  
+
+  a:hover {
+    text-align: center;
+    color: hotpink;
+  }
+  
+  a:active {
+    color: blue;

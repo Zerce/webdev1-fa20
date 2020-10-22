@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color:burlywood;
+    font-variation-settings: 'wght' 375, 'GRAD' 88;
+}
+p{
+    color: red;
+    text-align: center;
+    
+
+}
+@font-face {
+    font-family: 'SourceSans';
+    src: url('source-sans-variable.ttf') format('truetype');
+  }
+
+  @supports (font-variation-settings: normal) {
+    html {
+      font-family: 'SourceSansVariable', sans-serif;
+      font-variation-settings: "wght" 400;
+    }
