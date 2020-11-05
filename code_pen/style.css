@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+    background-attachment: fixed;
+  
+  }
+  h1 {
+    color: purple;
+    text-align: center;
+    font: size 50p;
+  }
+  
+  a {
+    
+    background-size:cover;
+    width: 169vmin;
+    height: 100px;
+    margin: 4vmin;
+    font-size: 7vmin;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    color: black;
+    box-shadow: 0px 10px 20px -10px black;
+    transition: color .5s;
+    
+  
+  }
+  a:hover{
+    color: aqua;
+  
+  }
